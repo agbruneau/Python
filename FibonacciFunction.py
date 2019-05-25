@@ -20,9 +20,10 @@ def _fib_doubling(n):
             return d, c + d
         else:
             return c, d
-# Main Python 
-if __name__ == "__main__":
 
+
+# Main Python
+if __name__ == "__main__":
     start_time = time.time()
     fib_doubling(20000000)
     print("Time Running for Fib_Doubling of 20 millions : %.9fs" % (time.time() - start_time))
