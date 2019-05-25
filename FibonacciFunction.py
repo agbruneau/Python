@@ -1,3 +1,4 @@
+# Futur Fonction en CaaS dans Google Cloud Run à ajouter et expérimenter.
 import time
 
 def fib_doubling(n):
