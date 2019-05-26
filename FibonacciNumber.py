@@ -35,7 +35,7 @@ class Fibonacci:
         return self.next()
 
 
-# Fib Recursive with lru_cache implenting a Native Dynamic Programming Technique
+# Fib Recursive with lru_cache implementing a Native Dynamic Programming Technique
 @lru_cache(maxsize=None)
 def fib(n):
     if n < 2:
@@ -56,6 +56,7 @@ def fib_cache(n, cache=None):
     result = fib_cache(n - 1, cache) + fib_cache(n - 2, cache)
     cache[n] = result
     return result
+
 
 # Different implementation of Fib functions
 def fib_fast(n):
@@ -143,7 +144,7 @@ if __name__ == "__main__":
 
     start_time = time.time()
     fib_doubling(fib_num)
-    print("fib_doubling \t\t: %.9fs" % (time.time() - start_time))
+    print("fib_doubling \t: %.9fs" % (time.time() - start_time))
 
     print()
     start_time = time.time()
