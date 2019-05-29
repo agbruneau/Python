@@ -1,5 +1,5 @@
 # Futur Fonction en CaaS dans Google Cloud Run à ajouter et expérimenter.
-import time
+import timeit
 
 def fib_doubling(n):
     if n < 2:
@@ -24,6 +24,4 @@ def _fib_doubling(n):
 
 # Main Python
 if __name__ == "__main__":
-    start_time = time.time()
-    fib_doubling(20000000)
-    print("Time Running for Fib_Doubling of 20 millions : %.9fs" % (time.time() - start_time))
+    print("fib_doub 20 millions :\t", timeit.timeit('fib_doubling(20000000)', globals=globals(), number=1))
