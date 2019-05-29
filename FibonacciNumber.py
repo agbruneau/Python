@@ -1,7 +1,7 @@
 # Fibonacci Web Calculator - Max : 20000
 # http://php.bubble.ro/fibonacci/
 
-import time
+import timeit
 from functools import lru_cache
 from functools import reduce
 
@@ -112,58 +112,21 @@ def _fib_doubling(n):
 # Main Python 
 if __name__ == "__main__":
 
-    print("Fib Native Dynamic Programming Technique")
-    # fib Native with LRU Cache
-    start_time = time.time()
-    fib(499)
-    print("fib 499 lru  \t\t: %.9fs" % (time.time() - start_time))
+    print("fib 499 lru :\t\t", timeit.timeit('fib_cache(499)', globals=globals(), number=1))
 
-    # Fib Native with Cache
-    start_time = time.time()
-    fib_cache(499, None)
-    print("fib_cache 499 \t\t: %.9fs" % (time.time() - start_time))
+    print("fib_cache 499 :\t\t", timeit.timeit('fib_cache(499, None)', globals=globals(), number=1))
 
-    # Using Optimized Fibonacci Functions.
     fib_num = 20000
 
-    print()
-    print("fib of 2 000 with number of decimals :", len(str(fib_doubling(fib_num))))
+    print("fib_fast 2000 :\t\t", timeit.timeit('fib_fast(fib_num)', globals=globals(), number=1))
 
-    start_time = time.time()
-    fib_fast(fib_num)
-    print("fib_fast \t\t: %.9fs" % (time.time() - start_time))
+    print("fib_reduce 2000 :\t", timeit.timeit('fib_reduce(fib_num)', globals=globals(), number=1))
 
-    start_time = time.time()
-    fib_reduce(fib_num)
-    print("fib_reduce \t\t: %.9fs" % (time.time() - start_time))
+    print("fib_ia 2000 :\t\t", timeit.timeit('fib_ia(fib_num)', globals=globals(), number=1))
 
-    start_time = time.time()
-    fib_ia(fib_num)
-    print("fib_ia \t\t\t: %.9fs" % (time.time() - start_time))
+    print("fib_doub 20 millions :\t", timeit.timeit('fib_doubling(20000000)', globals=globals(), number=1))
 
-    start_time = time.time()
-    fib_doubling(fib_num)
-    print("fib_doubling \t\t: %.9fs" % (time.time() - start_time))
-
-    print()
-    start_time = time.time()
-    fib_doubling(20000000)
-    print("fib_doubling 20 millions : %.9fs" % (time.time() - start_time))
-
-    print()
-    print("Fibonacci Doubling 50")
-    start_time = time.time()
-    for x in range(0, 50):
-        print(x, fib_doubling(x))
-    print("Fibonacci Doubling 50 time : %.9fs" % (time.time() - start_time))
-
-    # Commentaire de test GitHub pour la classe Fibonacci
-    print()
-    print("Fibonacci Class 50")
+    print("\nFibonacci Class 50")
     MY_FIBONACCI_NUMBERS = Fibonacci()
-    x = 0
-    start_time = time.time()
     for fibonacci_number in MY_FIBONACCI_NUMBERS:
-        print(x, fibonacci_number)
-        x = x + 1
-    print("Fibonacci Class 50 time : %.9fs" % (time.time() - start_time))
+        print(fibonacci_number)
