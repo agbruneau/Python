@@ -32,4 +32,3 @@ if __name__ == "__main__":
     print("fib_doub     1 000 000 :\t", timeit.timeit('fib_doubling(1000000)', globals=globals(), number=1))
     print("fib_doub    10 000 000 :\t", timeit.timeit('fib_doubling(10000000)', globals=globals(), number=1))
     print("fib_doub   100 000 000 :\t", timeit.timeit('fib_doubling(100000000)', globals=globals(), number=1))
-    print("fib_doub 1 000 000 000 :\t", timeit.timeit('fib_doubling(1000000000)', globals=globals(), number=1))
