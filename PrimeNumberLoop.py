@@ -48,8 +48,8 @@ def approach3(given_number):
 
 
 # Approach 1: Execution time
-print(timeit.timeit('approach1(500)', globals=globals(), number=1000))
+print(timeit.timeit('approach1(100000)', globals=globals(), number=1))
 # Approach 2: Execution time
-print(timeit.timeit('approach2(500)', globals=globals(), number=1000))
+print(timeit.timeit('approach2(100000)', globals=globals(), number=1))
 # Approach 3: Execution time
-print(timeit.timeit('approach3(500)', globals=globals(), number=1000))
+print(timeit.timeit('approach3(100000)', globals=globals(), number=1))
