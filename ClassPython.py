@@ -1,4 +1,10 @@
 class Demo:
+    def __init__(self):
+        pass
+
+    def __iter__(self):
+        return self
+
     def num(self):
         for i in range(1, 1000):
             print("The number is ", i)
