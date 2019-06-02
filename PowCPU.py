@@ -1,5 +1,6 @@
-from timeit import default_timer as timer
+# Ref : https://weeraman.com/put-that-gpu-to-good-use-with-python-e5a437168c01
 
+from timeit import default_timer as timer
 import numpy as np
 
 
