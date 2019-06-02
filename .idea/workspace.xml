@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77243e27-6cd0-4439-b0b1-7948a942e2d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FibonacciCurve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PowCPU.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PowGPU.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bidon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bidon.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,35 +17,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FibonacciFunction.py">
+        <entry file="file://$PROJECT_DIR$/PowCPU.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-end-line="27" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bidon.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FibonacciCurve.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+            <state relative-caret-position="306">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
-                <element signature="e#164#175#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PrimeNumberFunct.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PowGPU.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-631" />
+            <state relative-caret-position="306">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -75,6 +66,8 @@
         <option value="$PROJECT_DIR$/ClassPython.py" />
         <option value="$PROJECT_DIR$/Bidon.py" />
         <option value="$PROJECT_DIR$/FibonacciCurve.py" />
+        <option value="$PROJECT_DIR$/PowCPU.py" />
+        <option value="$PROJECT_DIR$/PowGPU.py" />
       </list>
     </option>
   </component>
@@ -110,7 +103,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,7 +117,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FibonacciCurve">
+  <component name="RunManager" selected="Python.PowGPU">
     <configuration name="Bidon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="FibonacciFunction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PowCPU" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,7 +193,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FibonacciFunction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PowCPU.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +202,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="PrimeNumberFunct" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PowGPU" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,7 +214,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PrimeNumberFunct.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PowGPU.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PowGPU" />
+        <item itemvalue="Python.PowCPU" />
         <item itemvalue="Python.FibonacciCurve" />
         <item itemvalue="Python.Bidon" />
         <item itemvalue="Python.ClassPython" />
-        <item itemvalue="Python.FibonacciFunction" />
-        <item itemvalue="Python.PrimeNumberFunct" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559395991137</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added init and iter to Demo Python Class">
+      <created>1559479909328</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559479909328</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -309,12 +309,12 @@
     <frame x="0" y="49" width="1920" height="2111" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21322751" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21322751" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32868937" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32868937" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -323,7 +323,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" show_stripe_button="false" side_tool="true" weight="0.3297546" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Pylint" order="11" weight="0.3295513" />
+      <window_info anchor="bottom" id="Pylint" order="11" weight="0.32920536" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -357,13 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FibonacciNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" selection-start-line="10" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassPython.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -371,27 +364,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PrimeNumberFunct.py">
+    <entry file="file://$PROJECT_DIR$/FibonacciFunction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-631" />
+        <state relative-caret-position="408">
+          <caret line="12" column="21" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FibonacciNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="14" column="23" selection-end-line="132" />
+          <folding>
+            <element signature="e#76#89#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bidon.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FibonacciFunction.py">
+    <entry file="file://$PROJECT_DIR$/FibonacciCurve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="425">
+          <caret line="45" column="38" selection-end-line="81" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FibonacciCurve.py">
+    <entry file="file://$PROJECT_DIR$/PrimeNumberFunct.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PowCPU.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+        <state relative-caret-position="306">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <element signature="e#164#175#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PowGPU.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
