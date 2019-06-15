@@ -1,6 +1,3 @@
-# Fibonacci Web Calculator - Max : 20000
-# http://php.bubble.ro/fibonacci/
-
 import timeit
 from functools import lru_cache
 from functools import reduce
