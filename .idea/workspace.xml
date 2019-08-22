@@ -34,7 +34,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ThreadingFast">
+  <component name="RunManager" selected="Python.FibonacciFunction">
     <configuration name="FibonacciFunction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ThreadingFast" />
         <item itemvalue="Python.FibonacciFunction" />
+        <item itemvalue="Python.ThreadingFast" />
         <item itemvalue="Python.FibonacciNumber" />
       </list>
     </recent_temporary>
