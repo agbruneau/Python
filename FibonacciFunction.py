@@ -28,8 +28,8 @@ def _fib_doubling(n):
 if __name__ == "__main__":
 
     # Tests parameters
-    # print("fib_doubling             -2 :\t", timeit.timeit('fib_doubling(-2)', globals=globals(), number=1))
-    # print("fib_doubling  1 000 000 001 :\t", timeit.timeit('fib_doubling(1000000001)', globals=globals(), number=1))
+    print("fib_doubling             -2 :\t", timeit.timeit('fib_doubling(-2)', globals=globals(), number=1))
+    print("fib_doubling  1 000 000 001 :\t", timeit.timeit('fib_doubling(1000000001)', globals=globals(), number=1))
 
     # Compute parameters
     print("fib_doubling              1 :\t", timeit.timeit('fib_doubling(1)', globals=globals(), number=1))
@@ -41,4 +41,4 @@ if __name__ == "__main__":
     print("fib_doubling      1 000 000 :\t", timeit.timeit('fib_doubling(1000000)', globals=globals(), number=1))
     print("fib_doubling     10 000 000 :\t", timeit.timeit('fib_doubling(10000000)', globals=globals(), number=1))
     print("fib_doubling     50 000 000 :\t", timeit.timeit('fib_doubling(50000000)', globals=globals(), number=1))
-    # print("fib_doubling    100 000 000 :\t", timeit.timeit('fib_doubling(100000000)', globals=globals(), number==1))
+    print("fib_doubling    100 000 000 :\t", timeit.timeit('fib_doubling(100000000)', globals=globals(), number=1))
