@@ -5,7 +5,7 @@ from functools import reduce
 
 class Fibonacci:
 
-    def __init__(self, max=12600000000):
+    def __init__(self, max=17711242408963095753760):
         self.a, self.b = 0, 1
         self.max = max
 
@@ -123,7 +123,7 @@ if __name__ == "__main__":
 
     print("fib_doub 20 millions :\t", timeit.timeit('fib_doubling(20000000)', globals=globals(), number=1))
 
-    print("\nFibonacci Class 50")
+    print("\nFibonacci Class 100")
     MY_FIBONACCI_NUMBERS = Fibonacci()
     for fibonacci_number in MY_FIBONACCI_NUMBERS:
         print(fibonacci_number)
