@@ -114,22 +114,22 @@ first 20 Fibonacci numbers, (Fib  numbers made by sum of preceeding
 two. Series starts 0 1 1 2 3 5 8 13 ....)
 '''
 
-# ## Number of fib numbers required
-# n = 20
-
-# # Set a and b to the first two numbers in the sequence
-# a = 0
-# b = 1 
-
-# # List in which to store numbers
-# fib_nums = []
-
-# # Use a for loop to create the sequence, repeat n times
-# for i in range(n):
-#     fib_nums.append(a)
-#     a,b = b,a+b     
-    
-# print(f'The first {n} Fibonacci numbers are, {fib_nums}')
+### Number of fib numbers required
+#n = 20
+#
+## Set a and b to the first two numbers in the sequence
+#a = 0
+#b = 1 
+#
+## List in which to store numbers
+#fib_nums = []
+#
+## Use a for loop to create the sequence, repeat n times
+#for i in range(n):
+#    fib_nums.append(a)
+#    a,b = b,a+b     
+#    
+#print(f'The first {n} Fibonacci numbers are, {fib_nums}')
 
 
 '''
@@ -151,24 +151,24 @@ Question 9
 Can you draw this using python? (comment the solution code)
 '''
 
-star = '*'
-
-for i in range(1,7):
-    for j in range(1,6):
-        if i == 1 and j < 6:
-            print(star,end='')
-        elif i == 2 and j == 1:
-            print()
-            print(star)
-        elif i == 3 and j < 5:
-            print(star,end='')
-        elif i == 4 and j == 1:
-            print()
-            print(star)  
-        elif i == 5 and j == 1:
-            print(star)
-        elif i == 6 and j == 1:
-            print(star)    
+#star = '*'
+#
+#for i in range(1,7):
+#    for j in range(1,6):
+#        if i == 1 and j < 6:
+#            print(star,end='')
+#        elif i == 2 and j == 1:
+#            print()
+#            print(star)
+#        elif i == 3 and j < 5:
+#            print(star,end='')
+#        elif i == 4 and j == 1:
+#            print()
+#            print(star)  
+#        elif i == 5 and j == 1:
+#            print(star)
+#        elif i == 6 and j == 1:
+#            print(star)    
 
 '''
 Question 10

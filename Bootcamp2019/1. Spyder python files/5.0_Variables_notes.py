@@ -6,12 +6,13 @@ Created on Wed Oct 16 09:42:38 2019
 @author: Giles
 """
 
-x = 5
-y = 12
+#x = 5
+#
+#y = 12
 ##
-z = x + y
+#z = x + y
 ##
-print(z)
+#print(z)
 #
 #1x = 3
 #new_variable = 9
@@ -33,4 +34,4 @@ print(z)
 #user_input = int(input('How many apples do you have?\n >>> '))
 
 #help()
-#while = 5
+while = 5
