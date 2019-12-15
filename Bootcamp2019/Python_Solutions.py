@@ -24,7 +24,7 @@ print(name_list)
 # Question 3
 # Write a program to determine whether a given number is within 10 of 100 or 200.
 
-def(number):
+def num(number):
     if (abs(100 - number)) <= 10 or (abs(200 - number)) <= 10:
         return True
     else:
@@ -133,8 +133,8 @@ def add_commas(number):
 # Question 11
 # Write a function that will convert an integer into binary.
 
-def to_binary(number):
-    print(f'{number} in binary is {number:08b})
+# def to_binary(number):
+#     print(f'{number} in binary is {number:08b})
 
 
 # Question 12
@@ -163,9 +163,9 @@ def check_sums(number):
 # 45 would return 0h:45mins 135 would return 2h:15mins
 
 def convert_h_m(num):
-  hours = num // 60
-  mins = num % 60
-  return str(hours) + 'h' + ':' + str(mins)  + ' mins'
+    hours = num // 60
+    mins = num % 60
+    return str(hours) + 'h' + ':' + str(mins)  + ' mins'
 
 
 # Question 16
@@ -192,7 +192,7 @@ def no_plus_sum(a,b):
 # Explanation: https://stackoverflow.com/questions/17342042/why-this-code-for-additionusing-bitwise-operation-works-in-java
 
 
- # Question 18
+# Question 18
 # Write a function that will calculate the number of divisors of a positive integer and return
 # those divisors.
 
@@ -210,7 +210,7 @@ def odd_even(num):
     print('Even')
 
 
- # Question 20
+# Question 20
 # Write a function which prints the prime numbers in a given range.
 
 def primes(start,end):
@@ -223,5 +223,5 @@ def primes(start,end):
 
             else:
                 primes.append(i)
-      return primes
-      #(Note the use of the for/else clause here - it can be extremely useful - https://stackoverflow.com/questions/9979970/why-does-python-use-else-after-for-and-while-loops)   
+    return primes
+    #(Note the use of the for/else clause here - it can be extremely useful - https://stackoverflow.com/questions/9979970/why-does-python-use-else-after-for-and-while-loops)   
