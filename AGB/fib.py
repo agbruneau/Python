@@ -1,3 +1,6 @@
+import timeit
+
+
 def fibbonaci(n):
     if n < 2:
         return n
@@ -11,4 +14,5 @@ def fibbonaci(n):
 
 # Main Python 
 if __name__ == "__main__":
-    print(fibbonaci(100))
+    print("fib_doubling    1 000 000 :\t", timeit.timeit(
+       'fibbonaci(1000000)', globals=globals(), number=1))
