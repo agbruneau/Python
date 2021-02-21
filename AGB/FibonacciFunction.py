@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     
     # Compute parameters
-    print("fib_doubling          2 000 :\t", timeit.timeit(
+    print("fib_doubling 2 000 :\t", timeit.timeit(
         'fib_doubling(2000)', globals=globals(), number=1))
-    print("fib_doubling    2 000 000 :\t", timeit.timeit(
+    print("fib_doubling 2 000 000 :\t", timeit.timeit(
         'fib_doubling(2000000)', globals=globals(), number=1))
