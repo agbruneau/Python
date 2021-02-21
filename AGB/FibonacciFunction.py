@@ -28,29 +28,29 @@ def _fib_doubling(n):
 if __name__ == "__main__":
 
     # Tests parameters
-    print("fib_doubling             -2 :\t",
-          timeit.timeit('fib_doubling(-2)', globals=globals(), number=1))
-    print("fib_doubling  1 000 000 001 :\t", timeit.timeit(
-        'fib_doubling(1000000001)', globals=globals(), number=1))
+#    print("fib_doubling             -2 :\t",
+#          timeit.timeit('fib_doubling(-2)', globals=globals(), number=1))
+#    print("fib_doubling  1 000 000 001 :\t", timeit.timeit(
+#        'fib_doubling(1000000001)', globals=globals(), number=1))
 
     # Compute parameters
-    print("fib_doubling              1 :\t", timeit.timeit(
-        'fib_doubling(1)', globals=globals(), number=1))
-    print("fib_doubling             10 :\t", timeit.timeit(
-        'fib_doubling(10)', globals=globals(), number=1))
-    print("fib_doubling            100 :\t", timeit.timeit(
-        'fib_doubling(100)', globals=globals(), number=1))
-    print("fib_doubling          1 000 :\t", timeit.timeit(
-        'fib_doubling(1000)', globals=globals(), number=1))
-    print("fib_doubling         10 000 :\t", timeit.timeit(
-        'fib_doubling(10000)', globals=globals(), number=1))
-    print("fib_doubling        100 000 :\t", timeit.timeit(
-        'fib_doubling(100000)', globals=globals(), number=1))
-    print("fib_doubling      1 000 000 :\t", timeit.timeit(
-        'fib_doubling(1000000)', globals=globals(), number=1))
-    print("fib_doubling     10 000 000 :\t", timeit.timeit(
-        'fib_doubling(10000000)', globals=globals(), number=1))
-    print("fib_doubling     50 000 000 :\t", timeit.timeit(
-        'fib_doubling(50000000)', globals=globals(), number=1))
+    print("fib_doubling              20 :\t", timeit.timeit(
+        'fib_doubling(20)', globals=globals(), number=1))
+    print("fib_doubling             200 :\t", timeit.timeit(
+       'fib_doubling(200)', globals=globals(), number=1))
+ #   print("fib_doubling            100 :\t", timeit.timeit(
+ #       'fib_doubling(100)', globals=globals(), number=1))
+ #   print("fib_doubling          1 000 :\t", timeit.timeit(
+ #       'fib_doubling(1000)', globals=globals(), number=1))
+ #   print("fib_doubling         10 000 :\t", timeit.timeit(
+ #       'fib_doubling(10000)', globals=globals(), number=1))
+ #   print("fib_doubling        100 000 :\t", timeit.timeit(
+ #       'fib_doubling(100000)', globals=globals(), number=1))
+ #   print("fib_doubling      1 000 000 :\t", timeit.timeit(
+ #       'fib_doubling(1000000)', globals=globals(), number=1))
+ #   print("fib_doubling     10 000 000 :\t", timeit.timeit(
+ #       'fib_doubling(10000000)', globals=globals(), number=1))
+ #   print("fib_doubling     50 000 000 :\t", timeit.timeit(
+ #       'fib_doubling(50000000)', globals=globals(), number=1))
     print("fib_doubling    100 000 000 :\t", timeit.timeit(
         'fib_doubling(100000000)', globals=globals(), number=1))
