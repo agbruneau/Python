@@ -33,3 +33,5 @@ if __name__ == "__main__":
         'fib_doubling(2000)', globals=globals(), number=1))
     print("fib_doubling 2 000 000 :", timeit.timeit(
         'fib_doubling(2000000)', globals=globals(), number=1))
+    print("fib_doubling 2 000 000 :", timeit.timeit(
+        'fib_doubling(20000000)', globals=globals(), number=1))
